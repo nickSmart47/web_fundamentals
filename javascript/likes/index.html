@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container ">
+        <!-- header start -->
+        <header>
+            <h1>Network</h1>
+        </header>
+        <h2 class="flexed sub-header">Your Feed</h2>
+        <!-- header end -->
+        <div class="content flexed">
+            <!-- left side start -->
+            <div class="left-side bordered flexed column centered">
+                <img src="./icons/user-circle.png" alt="">
+                <a href="#">Add an avatar</a>
+                <h2>James Doe</h2>
+            </div>
+            <!-- left side end -->
+            <!-- right side start -->
+            <div class="right-side flexed column">
+                <div class="post bordered">
+                    <div class="top flexed centered">
+                        <h2>Neil M</h2>
+                        <div class="top-right flexed centered">
+                            <p id="postOne" class="num-likes">9</p>
+                            <p class="num-likes">like(s)</p>
+                            <button onclick="likePostOne()">Like</button>
+                        </div>
+                    </div>
+                    <div class="bottom flexed">
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="post bordered">
+                    <div class="top flexed centered">
+                        <h2>Nichole K</h2>
+                        <div class="top-right flexed centered">
+                            <p id="postTwo" class="num-likes">12</p>
+                            <p class="num-likes">like(s)</p>
+                            <button onclick="likePostTwo()">Like</button>
+                        </div>
+                    </div>
+                    <div class="bottom flexed">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="post bordered">
+                    <div class="top flexed centered">
+                        <h2>Jim R</h2>
+                        <div class="top-right flexed centered">
+                            <p id="postThree" class="num-likes">9</p>
+                            <p class="num-likes">like(s)</p>
+                            <button onclick="likePostThree()">Like</button>
+                        </div>
+                    </div>
+                    <div class="bottom flexed">
+                        <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+            <!-- right side end -->
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

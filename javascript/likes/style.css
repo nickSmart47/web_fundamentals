@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:cursive;
+}
+
+/* header start */
+header{
+    background-color: black;
+    color:white;
+    padding:10px;
+}
+
+h2{
+   font-size: 20pt;
+}
+
+.sub-header{
+    margin:.5em;
+}
+
+/* header end */
+
+/* utility start */
+
+.column{
+    flex-direction: column;
+}
+.flexed{
+    display:flex;
+    justify-content:center;
+    /* align-items:center; */
+    gap:1.5em;
+}
+
+.centered{
+    align-items:center;
+}
+.container{
+    margin:0 auto;
+    padding:0 10%;
+    height: 900px;
+}
+.bordered{
+    border: 3px solid black;
+}
+/* utility end */
+
+/* content */
+
+.left-side{
+    height: 300px;
+    /* width: 150px; */
+    flex: 1;
+    padding:1.5em;
+}
+
+.left-side > img{
+    width:100px;
+}
+
+/* right side starts here */
+.right-side{
+    flex: 4;
+    height: 700px;
+}
+
+.post{
+    flex:1;
+}
+
+.top{
+    height:35%;
+    justify-content: space-between;
+    padding: 15px;
+}
+button{
+    height: 40px;
+    width: 80px;
+    background-color: goldenrod;
+    box-shadow: 4px 4px black;
+}
+
+.bottom{
+    padding: 1.5em;
+}
+
+.top{
+    margin:0.5em;
+}
+
+p{
+    margin: 5px;
+    font-size: 18px;
+}
+
+.num-likes{
+    margin:0.5em;
+}
+/* right side end */

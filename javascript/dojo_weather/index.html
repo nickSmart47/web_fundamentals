@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-text flexed centered">
+            <h1>DojoWeather</h1>
+            <h2 onclick="loadWeather()">Burbank</h2>
+            <h2 onclick="loadWeather()">Chicago</h2>
+            <h2 onclick="loadWeather()">Dallas</h2>
+        </div>
+    </header>
+    <div class="container">
+        <div class="city flexed">
+            <h2>San Jose</h2>
+            <div class="temp-control flexed">
+                <p>show temperature in</p>
+                <select name="temperatureUnits" id="temperatureUnit" onchange="convertTemperature(this.options[this.selectedIndex].text);">
+                    <option value="C">°C</option>
+                    <option value="F">°F</option>
+                </select>
+            </div>
+        </div>
+        <hr>
+        <div class="weather flexed">
+            <div class="day flexed column">
+                <h3>Today</h3>
+                <img src="./assets/some_rain.png" alt="rain cloud">
+                <p>some rain</p>
+                <div class="temperatures flexed">
+                    <p class="red temp" >24<span>°</span></p>
+                    <p class="blue temp" ">18<span>°</span></p>
+                </div>
+            </div>
+            <div class="day flexed column">
+                <h3>Tomorrow</h3>
+                <img src="./assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="temperatures flexed">
+                    <p class="red temp" >27<span>°</span></p>
+                    <p class="blue temp" >19<span>°</span></p>
+                </div>
+            </div>
+            <div class="day flexed column">
+                <h3>Friday</h3>
+                <img src="./assets/some_clouds.png" alt="cloud">
+                <p>some clouds</p>
+                <div class="temperatures flexed">
+                    <p class="red temp" >21<span>°</span></p>
+                    <p class="blue temp">16<span>°</span></p>
+                </div>
+            </div>
+            <div class="day flexed column">
+                <h3>Saturday</h3>
+                <img src="./assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="temperatures flexed">
+                    <p class="red temp" >26<span>°</span></p>
+                    <p class="blue temp" >21<span>°</span></p>
+                </div>
+            </div>
+        </div>
+        <div id="cookieMessage" class="cookie-policy flexed">
+            <img src="./assets/cookie.png" alt="cookie">
+            <div class="cookie-text">
+                <h4>Stop! Cookie time</h4>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media
+                    features and to analyze our traffic. <span><a href="#">Read more...</a></span></p>
+            </div>
+            <button onclick="removeCookieMessage()">I Accept</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

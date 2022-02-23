@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="flexed centered">
+            <h1>Dojonary</h1>
+            <input type="text" id="search" placeholder="Search" class = "bordered">
+            <button onclick = "loginButton()" class = "bordered" id="login">Login</button>
+        </header>
+        <div class="content flexed">
+            <div class="definitions">
+                <div class="ninja bordered flexed centered">
+                    <div class="left-side flexed centered column">
+                        <h2 class = "word">Ninja</h2>
+                        <h3><i>noun</i></h3>
+                        <p>Plural: <i>ninjas</i></p>
+                        <button onclick = "likeAlert()" class = "yellow">13 likes</button>
+                    </div>
+                    <p class = "definition super-centered">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+                <div class="ninja bordered flexed centered">
+                    <div class="right-side flexed centered column ">
+                        <h2 class = "word">Ninja</h2>
+                        <h3><i>noun</i></h3>
+                        <p>Plural: <i>ninjas</i></p>
+                        <button onclick = "likeAlert()" class = "yellow">37 likes</button>
+                    </div>
+                    <p class = "definition super-centered">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+            <aside class="add-definitions bordered flexed column centered">
+                <h2 class>Dojonary is defined by <strong>YOU</strong></h2>
+                <button onclick = "addDefinition()" class = "bordered" id = "addDefinition">Add Definition</button>
+            </aside>
+        </div>
+</body>
+<script src="script.js"></script>
+</html>
