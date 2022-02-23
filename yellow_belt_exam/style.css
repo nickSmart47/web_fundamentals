@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* utility styles */
+
+p,
+a,
+button{
+    font-size:13pt;
+}
+
+h4{
+    font-size:16pt;
+}
+
+button {
+    cursor: pointer;
+}
+body{
+    background-color:#f0f3ff;
+}
+
+.container{
+    min-height: 800px;
+    margin:0 5em;
+    background-color:white;
+    padding:.75em;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alt-flexed {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+}
+
+.heart-icon {
+    width: 25px;
+}
+
+.flex-start {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.orange{
+    color: orange;
+}
+
+.orange-bg{
+    background-color: orange;
+}
+
+.blue-bg{
+    background-color: blue;
+    color: white;
+}
+
+header button,
+.search button{
+    box-shadow: 3px 4px black;
+}
+
+.round {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+}
+
+.corner {
+    border-radius: 10px;
+    border: none;
+}
+/* utility styles */
+
+
+/* header styles */
+
+header {
+    min-height: 80px;
+    background-color:black;
+    padding:1.5em;
+}
+
+header h1{
+    color:white;
+}
+
+.buttons {
+    gap:1.5em;
+}
+.buttons button {
+    width: 70px;
+    height: 30px;
+}
+
+/* header styles */
+
+/* search styles */
+
+
+#goButton {
+    position:relative;
+    right:5%; 
+}
+
+.search {
+    background-color: peachpuff ;
+    padding:1.5em;
+}
+
+.search input{
+    min-height: 30px;
+}
+
+.search button {
+    width: 60px;
+    height: 35px;
+}
+
+.search-options img{
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.search-options {
+    gap:4em;
+}
+
+.search-options p{
+    margin-top:1em;
+    font-weight:bold;
+}
+/* search styles */
+
+/* recipe-of the day styles */
+
+.likes button{
+    gap:.5em;
+    font-size:11pt;
+}
+
+.recipes button{
+    border: none;
+    background-color: inherit;
+}
+.recipes {
+    gap:1em;
+    margin-top: 1.25em;
+    align-items: flex-start;
+}
+
+.recipe-of-the-day {
+    flex: 2.5;
+    padding: 1em;
+    background-color:#e1e5f5;
+    /* height:100%; */
+}
+
+.recipe-of-the-day h2{
+    margin-bottom:.5em;
+    font-size: 24pt;
+    color:#3b5bcc;
+}
+
+.recipe-of-the-day > img{
+    height: 80%;
+    width: 95%;
+}
+
+
+/* recipe of the day styles */
+
+/* recommended recipes styles */
+
+.recommended-recipes {
+    flex: 1;
+    gap:1em;
+    padding: 1em;
+}
+
+.recipe > img{
+    width: 100%;
+    flex: 1;
+}
+
+.recommended-recipes hr{
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+/* recommended recipes styles */

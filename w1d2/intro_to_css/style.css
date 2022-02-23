@@ -1,0 +1,69 @@
+*{
+    background-color: white;
+    color:seagreen;
+}
+/* asterisk * is "wildcard", applies to EVERYTHING on page */
+
+p{
+    font-family: cursive
+}
+
+h1{
+    border: 1px solid black;
+}
+/* # (hashtag) applies to id */
+#special{
+    font-size: larger;
+}
+
+/* . (dot) applies to class */
+.bordered{
+    border: 3px dotted olivedrab;
+}
+
+.blackAndWhite{
+    background-color: rgba(72, 12, 150, 0.384);
+    color: #ffe100;
+}
+
+/* ul li{
+    margin: 20px;
+} */
+/* this rule applies to all <li> inside a <ul> */
+
+/* .bordered li{
+    margin: 20px;
+} */
+
+/* applies to all <li> items with bordered class */
+
+.bordered > li{
+    margin: 20px
+}
+/* > implies direct descendant */
+
+input[type="text"]{
+    height: 40px;
+    background-color: burlywood;
+}
+/* applies only to input tags with "text" type */
+
+#tester{
+    text-align: center;
+    text-decoration: underline;
+    font-style: oblique;
+    font-weight: 100;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 75px;
+    background-color: coral;
+    width: 150px;
+    height: 500px;
+    margin: 5px;
+    padding-top: 60px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

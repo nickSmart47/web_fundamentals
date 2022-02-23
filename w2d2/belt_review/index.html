@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Dojo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container flexed">
+            <h1>Gaming<span class="purple">Dojo</span></h1>
+            <div class="header-right flexed">
+                <select>
+                    <option>Euro €</option>
+                </select>
+                <img src="./img/shopping_cart.png" alt="Shopping Cart">
+                <p id="cart-items">0</p>
+                <img src="./img/magnify.png" alt="Search Icon">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="banner">
+            <h2>Highlights</h2>
+            <div class="flexed">
+                <img id="left" onclick="backImage()" src="./img/chevleft.png" alt="left chevron">
+                <img id="banner-image" src="./img/cave.jpg" alt="stonepunk">
+                <img id="right" onclick = "nextImage()" src="./img/chevleft.png" alt="right chevron">
+            </div>
+        </div>
+        <div class="markers flexed jc-center">
+            <div class="marker darkgrey-bg"></div>
+            <div class="marker purple-bg"></div>
+            <div class="marker darkgrey-bg"></div>
+            <div class="marker darkgrey-bg"></div>
+        </div>
+        <div class="features flexed ai-flex-start">
+            <div class="feature">
+                <img class = "game"src="./img/cat.png" alt="cafe neko">
+                <h3>Cafe Neko: gold edition</h3>
+                <div class="os-icons">
+                    <img  class = "icon" src="./img/windows.png" alt="windows">
+                    <img  class = "icon" src="./img/apple.png" alt="apple">
+                </div>
+                <div class="flexed feature-copy">
+                    <button class="btn purple-bg">-20%</button>
+                    <div class="prices">
+                        <p class="old-price grey">€14.98</p>
+                        <p>€10.49</p>
+                    </div>
+                    <button onclick = "addItem()" class="btn green-bg">Buy</button>
+                </div>
+            </div>
+            <div class="feature">
+                <img class = "game"src="./img/ninja.png" alt="cafe neko">
+                <h3>Pixel Ninjas 2</h3>
+                <div class="os-icons">
+                    <img class = "icon"src="./img/windows.png" alt="windows">
+                    <img  class = "icon" src="./img/apple.png" alt="apple">
+                </div>
+                <div class="flexed feature-copy">
+                    <button class="btn purple-bg">-10%</button>
+                    <div class="prices">
+                        <p class="old-price grey">€8.19</p>
+                        <p>€7.39</p>
+                    </div>
+                    <button onclick = "addItem()" class="btn green-bg">Buy</button>
+                </div>
+            </div>
+            <div class="feature">
+                <img class = "game"src="./img/cat.png" alt="cafe neko">
+                <h3>Stonepunk</h3>
+                <div class="os-icons">
+                    <img  class = "icon" src="./img/windows.png" alt="windows">
+                    <img  class = "icon" src="./img/apple.png" alt="apple">
+                    <img onclick="alert('This game is supported on Linux')" class = "icon" src="./img/linux.png" alt="linux penguin">
+                </div>
+                <div class="flexed feature-copy">
+                    <button class="btn purple-bg">-20%</button>
+                    <div class="prices">
+                        <p class="old-price grey">€14.98</p>
+                        <p>€10.49</p>
+                    </div>
+                    <button onclick = "addItem()" class="btn green-bg">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

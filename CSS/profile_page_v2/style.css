@@ -1,0 +1,165 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Utility classes start here */
+
+img{
+    height:50px;
+    border-radius: 50%;
+}
+
+ul {
+    list-style: none;
+}
+
+.flexed {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap: 1.5em;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.bordered{
+    border: 3px solid gray;
+}
+
+.topbar-black{
+    background-color: black;
+    padding:3px;
+    color:white
+}
+
+.oval{
+    background-color: gray;
+    border-radius: 60%;
+    width: 20%;
+}
+
+.circle-button {
+    border-radius: 50%;
+    width: 40px;
+}
+
+/* Utility classes end here */
+
+/* header starts here */
+
+header {
+    background-color: black;
+    padding: 10px 0;
+    color: white;
+    margin-bottom: 1.5em;
+}
+
+header ul {
+    list-style: none;
+}
+
+.sign-out{
+    background-color: darkcyan;
+    width: 90px;
+    height: 30px;
+    color: white;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
+/* header ends here*/
+
+main {
+    min-height: 400px;
+    flex: 2;
+}
+
+
+aside {
+
+    min-height: 400px;
+    flex: 1;
+}
+
+
+
+/* user card starts here */
+
+.topbar{
+    background-color:darkcyan;
+    padding:70px;
+}
+
+.card {
+    min-height: 300px;
+}
+
+.icon{
+    height:30px;
+    margin-right: 10px;
+}
+
+#user{
+    height:100px;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    border: 5px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px white;
+}
+
+.content{
+    padding: 30px;
+}
+
+.content h1 {
+    font-size: 30px;
+    font-weight: bold
+}
+.content h2,
+.content p {
+    font-size: 22px;
+}
+
+/* user card ends here */
+
+/* education starts here */
+
+.education {
+    min-height: 200px;
+}
+
+/* education ends here */
+
+/* Connections starts here */
+
+.requests {
+
+    min-height: 200px;
+}
+
+.connections {
+    min-height: 200px;
+}
+
+

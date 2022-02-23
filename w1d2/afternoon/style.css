@@ -1,0 +1,20 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/* reset default margin and padding to 0 */
+
+#ib {
+    display:inline-block;
+    width: 500px;
+}
+/* display:inline can share horizontal space, 
+takes up as much space as content */
+/* inline-block can share horizontal space,
+can redefine space (probably more useful? */
+
+#box{
+    height:500px;
+    width:50%;
+    background-color:peachpuff;
+}

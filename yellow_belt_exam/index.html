@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Dessert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Container begins -->
+    <div class="container">
+        <!-- Header begins -->
+        <header class="flexed">
+            <h1>Just<span class="orange">Dessert</span></h1>
+            <div class="buttons flexed">
+                <button class="blue-bg" onclick="join(this)">Join</button>
+                <button class="orange-bg">Login</button>
+            </div>
+        </header>
+        <!-- Header ends -->
+        <!-- Search section begins -->
+        <div class="search flexed">
+            <form class="searchbar flexed">
+                <input type="text" name="search" id="searchbar" placeholder="SEARCH" class="round">
+                <button id="goButton" class="blue-bg corner" onclick="searchAlert()">GO</button>
+            </form>
+            <div class="search-options flexed">
+                <div class="cake flexed column">
+                    <img src="./imgs/cake.png" alt="Cake">
+                    <p>Cake</p>
+                </div>
+                <div class="cookie flexed column">
+                    <img src="./imgs/cookie.png" alt="Cookie">
+                    <p>Cookies</p>
+                </div>
+                <div class="ice-cream flexed column">
+                    <img src="./imgs/ice-cream.png" alt="ice-cream">
+                    <p>Ice Cream</p>
+                </div>
+                <div class="pie flexed column">
+                    <img src="./imgs/pie.png" alt="Pie">
+                    <p>Pies</p>
+                </div>
+            </div>
+        </div>
+        <!-- Search section ends -->
+        <!-- Recipes begin -->
+        <div class="recipes flexed">
+            <div class="recipe-of-the-day alt-flexed column">
+                <h2 class="flexed centered">Recipe of the Day</h2>
+                <img src="./imgs/orange-tart.jpg" alt="Orange Tart">
+                <div class="byline flexed">
+                    <div class="title-author">
+                        <h4>Orange Tea Jelly Tart</h4>
+                        <p>by: <span><a href="#">yuripiano</a></span></p>
+                    </div>
+                    <div class="likes flexed">
+                        <button class="flexed" onclick="increaseLikes(this)" id="1"><img class="heart-icon"
+                                src="./imgs/heart.png" alt="Heart">68</button>
+
+                    </div>
+                </div>
+                <a class="flexed centered" href="#">See Full Recipe</a>
+            </div>
+            <div class="recommended-recipes alt-flexed column">
+                <h3 id="left">Recommended for you:</h3>
+                <hr>
+                <div class="recipe">
+                    <img src="./imgs/macarons.jpg" alt="Macarons">
+                    <div class="byline flexed">
+                        <div class="title-author">
+                            <h4>Macarons</h4>
+                            <p>by: <span><a href="#">EmilieW</a></span></p>
+                        </div>
+                        <div class="likes flexed">
+                            <button class="flexed" onclick="increaseLikes(this)" id="2"><img class="heart-icon"
+                                    src="./imgs/heart.png" alt="Heart">212</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="recipe">
+                    <img src="./imgs/creme-brulee.jpg" alt="Creme brulee">
+                    <div class="byline flexed">
+                        <div class="title-author">
+                            <h4>Crème brûlée</h4>
+                            <p>by: <span><a href="#">MarisaG</a></span></p>
+                        </div>
+                        <div class="likes flexed">
+                            <button class="flexed" onclick="increaseLikes(this)" id="3"><img class="heart-icon"
+                                    src="./imgs/heart.png" alt="Heart">33</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Recipes end -->
+    </div>
+    <!-- Container ends -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+    background-color: lightgray;
+}
+
+/* utility styles */
+
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1.5em;
+}
+
+.ai-flex-start {
+    align-items: flex-start;
+}
+
+.container{
+    width: 900px;
+    margin:0 auto;
+}
+
+.purple {
+    color: #9828ff;
+}
+
+.purple-bg {
+    background-color: #9828ff;
+}
+.darkgrey-bg {
+    background-color: darkgray;
+}
+.grey-bg {
+    background-color: lightgray;
+}
+
+.grey {
+    color: grey;
+}
+.green-bg {
+    background-color: #69a84f;
+}
+.jc-center {
+    justify-content: center;
+}
+/* utility styles */
+
+/* header styles */
+header{
+    background-color:black;
+    min-height:50px;
+    padding:.5em 0;
+    border-top: 5px solid #9828ff;
+}
+
+header h1{
+    color: white;
+}
+header img {
+    width: 40px;
+}
+
+
+#cart-items{
+    color:white;
+}
+/* header styles */
+
+
+/* banner styles */
+.banner{
+    min-height: 300px;
+}
+
+#banner-image{
+    width:500px;
+    height:400px;
+}
+
+#right{
+    transform:scaleX(-1)
+}
+/* banner styles */
+.markers {
+    min-height:50px;
+}
+
+.banner img{
+    height: 40px;
+}
+/* markers styles */
+
+.markers {
+    min-height: 50px;
+}
+.marker {
+    width:100px;
+    height: 5px;
+    
+}
+
+/* markers styles */
+/* features styles */
+.features{
+    min-height:300px;
+}
+
+.feature {
+    flex: 1;
+    min-height: 100px;
+    background-color: white;
+}
+
+.feature-img {
+    width:100%;
+}
+
+.os-icons img{
+    width:30px;
+}
+
+.feature-copy {
+    padding: 1.5em;
+    background-color: white;
+}
+
+
+
+.btn {
+    color:white;
+    padding: .5em 1em;
+    border:0;
+    font-size:larger;
+    cursor: pointer;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.game {
+    width: 300px;
+    height: 150px;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+/* features styles */
