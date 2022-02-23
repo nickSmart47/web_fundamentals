@@ -1,0 +1,38 @@
+*{
+    font-family:'Courier New', Courier, monospace
+}
+.container{
+    border: 1px solid gray;
+    height: 500px;
+    margin:20px;
+}
+
+.topbar{
+    background-color:darkcyan;
+    padding:70px;
+}
+
+.icon{
+    height:30px;
+}
+
+#user{
+    height:100px;
+    position: relative;
+    bottom: 70px;
+    left:50px;
+    border: 5px solid white;
+    border-radius: 50%;
+    filter: invert(1);
+    box-shadow: 0 0 0 5px black
+}
+
+.content{
+    padding:40px;
+    position: relative;
+    bottom: 100px;
+}
+
+p{
+    font-weight: bold;
+}

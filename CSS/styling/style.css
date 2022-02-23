@@ -1,0 +1,30 @@
+*{
+    font-family:sans-serif;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    margin: 3px;
+}
+.blueText{
+    color:aquamarine;
+    font-family: cursive
+}
+
+h2{
+    text-align: center;
+    background-color: purple;
+    color: white;
+    font-style: italic;
+    margin: 3px;
+}
+
+h3{
+    text-align: right;
+    background-color:aquamarine;
+    color: blue;
+    text-decoration: underline;
+    margin: 3px;
+}
